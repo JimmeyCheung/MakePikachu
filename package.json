@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "build": "parcel build index.html --public-url .",
+    "deploy": "sh deploy.sh"
+  },
   "dependencies": {
     "jquery": "^3.3.1"
   },
